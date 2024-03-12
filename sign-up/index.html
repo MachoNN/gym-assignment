@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <title>Title</title>
+    <link rel="stylesheet" href="about page">
+    <link rel="stylesheet" href="sign in">
+    <link rel="stylesheet" href="sign up">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <section>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark p-3">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="text-danger fs-5 fw-bold">Iron</span>Gym</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mx-auto hover">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+                        <button class="btn btn-outline-danger" type="button">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- sign up section -->
+
+
+    <div class="container mt-5 pt-5">
+    <div class="row g-3">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+    </div>
+    <form class="row g-3">
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-3">
+            <label for="inputphone" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="(---)*** - ****">
+        </div>
+        <div class="col-6">
+            <label for="inputemergency" class="form-label">Emergency Contact</label>
+            <input type="text" class="form-control" id="inputemergency" placeholder="First , last name">
+        </div>
+        <div class="col-3">
+            <label for="inputemergency" class="form-label">Relationship</label>
+            <input type="text" class="form-control" id="inputemergency" placeholder="Spouse , child ect...">
+        </div>
+        <div class="col-3">
+            <label for="inputemergency" class="form-label">Emergency Contact num.</label>
+            <input type="text" class="form-control" id="inputemergency" placeholder="(---)*** - ****">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-outline-danger">Sign Up</button>
+        </div>
+    </form>
+    </div>
+   
+</body>
+
+</html>
